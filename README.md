@@ -3,9 +3,11 @@
 Partly inspired from https://github.com/yaseenhasan786/gitCommands
 
 In this doc, we assume there are two repos, one is 'local' which means the device where you treat as 'orgin', the other is 'remote' which means the device where you might use the docs same as 'local' and could do some changes.   
+
 Our aims are:  
 (1) When 'local' changed, push it to the 'remote'.  
 (2) When 'remote' is changed, make 'local' be same as 'remote'.  
+
 ### Creating a repository in local repository
 ``` sh
 # 
