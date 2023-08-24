@@ -1,9 +1,12 @@
 # git_commands
 
 partly inspired from https://github.com/yaseenhasan786/gitCommands
+In this doc, we assume there are to repos, one is 'local' which means the device where you treat as 'orgin', the other is 'remote' which means the device where you might use the docs same as 'local' and could do some changes. Our aims are:
+(1) When 'local' changed, push it to the 'remote'.
+(2) When 'remote' is changed, make 'local' be same as 'remote'.
 ### Creating a repository in local repository
 ``` sh
-# Here, 'local' means the device where you treat as 'orgin'
+# 
 # navigated into your folder you want to put on Github
 $ touch README.md								# create a file called README.md where you can put instructions/info about your folder like what you are reading right now!
 $ git init 										# initialize your git repository locally
