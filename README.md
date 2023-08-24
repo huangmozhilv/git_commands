@@ -1,8 +1,9 @@
 # git_commands
 
 partly inspired from https://github.com/yaseenhasan786/gitCommands
-### Creating a repository online for the <b>1st time</b>!
+### Creating a repository in local repository
 ``` sh
+# Here, 'local' means the device where you treat as 'orgin'
 # navigated into your folder you want to put on Github
 $ touch README.md								# create a file called README.md where you can put instructions/info about your folder like what you are reading right now!
 $ git init 										# initialize your git repository locally
