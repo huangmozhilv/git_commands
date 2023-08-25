@@ -37,7 +37,6 @@ $ git commit -m "message to describe current commit"
 $ git commit -am "message" # PERFECT short-cut to execute the two commands with one command. "-a": all.
 $ git commit -a -m "message" # short-cut to execute the two commands with one command.
 $ git add . && git commit -m "message" # short-cut to combine the two commands in one command
-$ git add-commit -m 'message' # same as above
 $ git push origin master # update everything from local to online. use "git push -u origin master" at first time as stated above. 
 $ git log # check all commits history.
 $ git diff @^ # @ is alias for HEAD, so this is compare last one to current status
